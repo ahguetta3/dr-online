@@ -8,7 +8,7 @@ const rateLimit = require('express-rate-limit');
 const mongoSanitize = require('express-mongo-sanitize');
 
 // تحميل المتغيرات البيئية
-dotenv.config({ path: path.join(__dirname, '../.env') });
+dotenv.config();
 
 const app = express();
 
