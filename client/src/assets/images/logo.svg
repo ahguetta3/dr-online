@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text { font-family: Arial, sans-serif; font-weight: bold; }
+    .icon { fill: #00B5AD; }
+    .dot { fill: #FF5733; }
+  </style>
+  
+  <!-- Medical Icon -->
+  <path class="icon" d="M25,10 L35,10 L35,20 L45,20 L45,30 L35,30 L35,40 L25,40 L25,30 L15,30 L15,20 L25,20 Z"/>
+  
+  <!-- Text "Dr." -->
+  <text x="60" y="35" class="text" font-size="24" fill="#2C3E50">Dr</text>
+  
+  <!-- Dot -->
+  <circle class="dot" cx="95" cy="25" r="3"/>
+  
+  <!-- Text "Online" -->
+  <text x="105" y="35" class="text" font-size="24" fill="#00B5AD">Online</text>
+</svg>
