@@ -10,6 +10,7 @@
     "@react-google-maps/api": "^2.19.2",
     "axios": "^1.6.2",
     "cra-template": "1.2.0",
+    "date-fns": "^4.1.0",
     "mui-tel-input": "^4.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -42,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
